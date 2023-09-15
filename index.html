@@ -8,6 +8,7 @@
         *{
             font-family: cursive;
         }
+        
         body{
             
             display: flex;
@@ -66,16 +67,27 @@
                 switch(clickedButtonId){
                     case 'b1' :
                     case 's1':
+                       document.getElementById(clickedButtonId).style.backgroundColor = '#071952'
+                      
+                       document.getElementById("b2").style.backgroundColor = '#088395'
+                       document.getElementById("b3").style.backgroundColor = ' #088395'
+                      
                         console.log("button1")
                         game("button1")
                         break
                     case 'b2':
                     case 's2':
+                       document.getElementById(clickedButtonId).style.backgroundColor = '#071952'
+                       document.getElementById("b1").style.backgroundColor = '#088395'
+                       document.getElementById("b3").style.backgroundColor = ' #088395'
                         console.log('button2')
                         game("button2")
                         break
                     case 'b3':
                     case 's3':
+                    document.getElementById(clickedButtonId).style.backgroundColor = '#071952'
+                       document.getElementById("b1").style.backgroundColor = '#088395'
+                       document.getElementById("b2").style.backgroundColor = ' #088395'
                         console.log('button3')
                         game("button3")
                         break
