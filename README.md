@@ -1,1 +1,1 @@
-# rpsJS
+# Rock paper scissors
